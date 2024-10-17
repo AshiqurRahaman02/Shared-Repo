@@ -14,4 +14,8 @@ function divideByFive(num) {
     return num / 5;
 }
 
-module.exports = { multiplyByFive, multiplyByNine, divideByFive };
+function divideByNine(num) {
+    return num / 9;
+}
+
+module.exports = { multiplyByFive, multiplyByNine, divideByFive, divideByNine };
