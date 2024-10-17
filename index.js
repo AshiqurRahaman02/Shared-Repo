@@ -10,4 +10,8 @@ function multiplyByNine(num) {
     return num * 9;
 }
 
-module.exports = { multiplyByFive, multiplyByNine };
+function divideByFive(num) {
+    return num / 5;
+}
+
+module.exports = { multiplyByFive, multiplyByNine, divideByFive };
